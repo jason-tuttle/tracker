@@ -1,0 +1,15 @@
+// +---------------------------+
+// boostrap variable overrides |
+// +---------------------------+
+
+$navbar-default-bg: lightgray;
+$navbar-default-brand-color: black;
+$navbar-default-padding-vertical: 20px;
+$navbar-default-border-radius: 20px;
+$navbar-border-color: black;
+
+// +---------------------------+
+// end bootstrap overrides     |
+// +---------------------------+
+
+@import 'bootstrap';
