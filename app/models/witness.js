@@ -6,6 +6,6 @@ export default DS.Model.extend({
   email: DS.attr('string'),
   sightings: DS.hasMany('sighting'),
   fullName: Ember.computed('fName', 'email', function() {
-    return this.get('fName') + ' ' + this.get('email');
+    return this.get('fName') + ' - ' + this.get('email');
   }),
 });
